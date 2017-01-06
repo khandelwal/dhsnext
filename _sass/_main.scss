@@ -380,10 +380,10 @@ body {
       background: url('../img/home/menzel-coastguard.jpg') center center no-repeat;
       background-size: cover;
       @media (max-width: $screen-xs-max) {
-        background-image: url('../img/home/jumbotron-usds-staff-600.jpg')
+        background-image: url('../img/home/menzel-coastguard.jpg')
       }
       @media (min-width: $screen-md-min) {
-        background-image: url('../img/home/jumbotron-usds-staff-2400.jpg')
+        background-image: url('../img/home/menzel-coastguard.jpg')
       }
       color: #fff;
       position: relative;
