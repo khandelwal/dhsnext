@@ -1,9 +1,9 @@
 ---
 title: Building a cloud foundation
-project_link: https://www.vets.gov/
-link_text: Visit Vets.gov
-image_url: /img/work/vets-vets.org.png
-image_description: The logo for vets.gov
+project_link: 
+link_text: 
+image_url: /img/work/cloud-icon.png
+image_description: An icon representing the cloud
 ---
 
 Engineering cloud solutions to enable teams across DHS to ship applications

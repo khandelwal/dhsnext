@@ -1,9 +1,9 @@
 ---
 title: Accelerating innovation
-project_link: https://www.vets.gov/
-link_text: Visit Vets.gov
-image_url: /img/work/vets-vets.org.png
-image_description: The logo for vets.gov
+project_link:
+link_text:
+image_url: /img/work/innovation-icon.png
+image_description: An icon of a lightbulb representing innovation
 ---
 
 Using the latest cutting edge technologies to solve mission problems in
