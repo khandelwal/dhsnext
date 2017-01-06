@@ -11,7 +11,7 @@ email: no-reply@usds.gov
 description: >
   The United States Digital Service is transforming how the federal government
   works for the American people. And we need you.
-url: "https://www.usds.gov" # the base hostname & protocol for your site
+url: "http://www.skhandelwal.com" # the base hostname & protocol for your site
 twitter_username: usds
 github_username:  usds
 medium_url: https://medium.com/@USDigitalService
