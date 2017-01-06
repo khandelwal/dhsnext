@@ -11,7 +11,7 @@
 
   <div class="usa-width-one-third story">
     {% if project.project_link|strip %}
-      <a href="{{project.project_link}}" title="{{project.link_text}}"><img src="{{project.image_url}}" alt="{{project.image_description}}" /></a>
+    <a href="{{project.project_link}}" title="{{project.link_text}}"><img src="{{site.github.url}}{{project.image_url}}" alt="{{project.image_description}}" /></a>
       <h3>
         <a href="{{ project.project_link }}" title="{{ project.link_text }}">{{ project.title }}</a>
       </h3>
