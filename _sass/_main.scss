@@ -104,7 +104,7 @@ body {
             padding-bottom: 3px;
             border-bottom: 5px $background-color-secondary solid;
           }
-          
+
           & > ul {
             visibility: hidden;
             // off by one pixel so we don't obscure
@@ -214,7 +214,7 @@ body {
               }
             }
           }
-        
+
           #submenu-background {
             @include css3-prefix('transition', 'bottom 100ms linear');
             bottom: ( $fixed-header-height-desktop - $fixed-header-height-desktop-collapsed );
@@ -478,7 +478,7 @@ body {
         border-color: #205593;
       }
     }
-    // Paragraphs that are within the 
+    // Paragraphs that are within the
     .usa-width-one-whole > p {
       margin: 1em auto;
     }
@@ -534,24 +534,6 @@ body {
       }
     }
   } // </section.our-work>
-
-  section.blog {
-    .blog-item {
-      a {
-        text-decoration: none;
-      }
-      .blog-image {
-        width: 100%;
-        background-position: 50% 0%;
-        background-size: cover;
-        background-origin: content-box;
-        background-repeat: no-repeat;
-        height: 170px;
-        border-top: 6px solid $background-color-secondary;
-        padding-top: 8px;
-      }
-    }
-  } // </section.blog>
 
   section.staff-members {
     // This prevents the arrows on the staff nav
@@ -634,8 +616,8 @@ body {
       padding: 0;
     }
   } // </section.site-album>
-  
-  
+
+
   ul.featured {
     font-size: 0.8em;
     text-align: left;
@@ -870,4 +852,3 @@ body {
   font-size: 30px;
   color: #bbb;
 }
-

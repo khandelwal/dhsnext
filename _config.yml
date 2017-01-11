@@ -19,14 +19,13 @@ medium_url: https://medium.com/@USDigitalService
 # Build settings
 markdown: kramdown
 collections:
-  - blog_summaries
   - project_summaries
-  
+
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  
+
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag
 twitter:
