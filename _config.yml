@@ -6,29 +6,22 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: United States Digital Service
-email: no-reply@usds.gov
+title: DHS Next
+email: dhsnext@dhs.gov
 description: >
-  The United States Digital Service is transforming how the federal government
-  works for the American people. And we need you.
+  DHS Next is transforming how the Department of Homeland Security leverages
+  technology in securing our homeland. And we need you.
 url: "http://www.skhandelwal.com" # the base hostname & protocol for your site
-twitter_username: usds
-github_username:  usds
-medium_url: https://medium.com/@USDigitalService
 
 # Build settings
 markdown: kramdown
 collections:
-  - blog_summaries
   - project_summaries
-  
+
 gems:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-redirect-from
-  
+
 # Jekyll SEO Tag
 # See https://github.com/jekyll/jekyll-seo-tag
-twitter:
-  username: usds
-logo: /img/usds-logo-onwhite.png
