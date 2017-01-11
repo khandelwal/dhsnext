@@ -14,17 +14,6 @@
   <nav class="site-navbar">
     <div class="desktop">
       <ul class="usa-unstyled-list">
-        <li class="nav-item {% if page.url == '/mission.html' or page.url == '/values.html'  or page.url == '/story.html' %}active{% endif %}">
-          <a href="{{site.github.url}}/mission"><span>About</span></a>
-          <ul>
-            <li><a href="{{ site.github.url }}/mission">Our Mission</a></li>
-            <li><a href="{{ site.github.url }}/values">Our Values</a></li>
-            <li><a href="{{ site.github.url }}/story">Our Story</a></li>
-          </ul>
-        </li>
-        <li class="nav-item {% if page.url == '/work.html' %}active{% endif %}">
-        <a href="{{ site.github.url }}/work"><span>Our work</span></a>
-        </li>
         <li class="nav-centerpiece">
         <a id="logo-desktop-full" href="{{ site.github.url }}/">
               <img alt="The seal of the Department of Homeland Security" src="{{ site.github.url }}/img/layout/dhs-seal-250.png" />
@@ -32,12 +21,6 @@
           <a id="logo-desktop-collapsed" href="{{ site.github.url }}/">
               <img alt="The seal of the Department of Homeland Security" src="{{ site.github.url }}/img/layout/dhs-seal-250.png" />
           </a>
-        </li>
-        <li class="nav-item">
-        <a href=""><span>TBD</span></a>
-        </li>
-        <li class="nav-item {% if page.url == '/join.html' %}active{% endif %}">
-        <a href="{{ site.github.url }}/join"><span>Join us</span></a>
         </li>
       </ul>
       <div id="submenu-background">&nbsp;</div>
@@ -56,23 +39,7 @@
       </button>
       <div class="mobile-nav collapsed">
         <ul class="usa-unstyled-list">
-          <li class="nav-item">
-          <a href="{{ site.github.url }}/about">About</a>
-            <ul>
-              <li class="nav-item"><a href="{{ site.github.url }}/mission">Our Mission</a></li>
-              <li class="nav-item"><a href="{{ site.github.url }}/values">Our Values</a></li>
-              <li class="nav-item"><a href="{{ site.github.url }}/story">Our Story</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="{{ site.github.url }}/work">Our work</a>
-          </li>
-          <li class="nav-item">
-            <a href="">TBD</a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ site.github.url }}/join">Join us</a>
-          </li>
+        </ul>
       </div>
     </div>
   </nav>
