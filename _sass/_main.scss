@@ -591,9 +591,9 @@ body {
     }
   } // </section.staff-members>
 
-  section.press {
+  section.mission-stats {
     margin-top: 5rem;
-    .story {
+    .stat {
       text-align: left;
       padding: 20px 20px 20px 0;
       border-top: 1px solid #ffffff;
@@ -603,7 +603,7 @@ body {
       a, a:hover {
         color: #ffffff;
       }
-      .author {
+      .dhs-component {
         display: block;
         padding: 0.45em 0;
         color: #56A8DF;
