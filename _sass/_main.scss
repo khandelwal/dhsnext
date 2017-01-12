@@ -494,7 +494,7 @@ body {
   // Sections that are re-used on multiple parts of the site
   // For CSS that is page-specific, see below
   //
-  section.our-work {
+  section.about-us {
     .story, .story-more {
       display: block;
       padding: 0 20px;
@@ -641,13 +641,8 @@ body {
       }
   }
 
-  section.apply{
-      .applytext{
-          text-align: left;
-      }
+  section.join-us{
   }
-
-
 
   ul.featured {
     font-size: 0.8em;
