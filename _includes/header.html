@@ -14,30 +14,13 @@
   <nav class="site-navbar">
     <div class="desktop">
       <ul class="usa-unstyled-list">
-        <li class="nav-item {% if page.url == '/mission.html' or page.url == '/values.html'  or page.url == '/story.html' %}active{% endif %}">
-          <a href="{{site.github.url}}/mission"><span>About</span></a>
-          <ul>
-            <li><a href="{{ site.github.url }}/mission">Our Mission</a></li>
-            <li><a href="{{ site.github.url }}/values">Our Values</a></li>
-            <li><a href="{{ site.github.url }}/story">Our Story</a></li>
-          </ul>
-        </li>
-        <li class="nav-item {% if page.url == '/work.html' %}active{% endif %}">
-        <a href="{{ site.github.url }}/work"><span>Our work</span></a>
-        </li>
         <li class="nav-centerpiece">
         <a id="logo-desktop-full" href="{{ site.github.url }}/">
-              <img alt="The seal of the Department of Homeland Security" src="{{ site.github.url }}/img/layout/dhs-seal-250.png" />
+              <img alt="The seal of the Department of Homeland Security" src="{{ site.github.url }}/img/layout/dhs-seal-larger.png" />
           </a>
           <a id="logo-desktop-collapsed" href="{{ site.github.url }}/">
-              <img alt="The seal of the Department of Homeland Security" src="{{ site.github.url }}/img/layout/dhs-seal-250.png" />
+              <img alt="The seal of the Department of Homeland Security" src="{{ site.github.url }}/img/layout/dhs-seal-smaller.png" />
           </a>
-        </li>
-        <li class="nav-item">
-        <a href=""><span>TBD</span></a>
-        </li>
-        <li class="nav-item {% if page.url == '/join.html' %}active{% endif %}">
-        <a href="{{ site.github.url }}/join"><span>Join us</span></a>
         </li>
       </ul>
       <div id="submenu-background">&nbsp;</div>
@@ -45,35 +28,8 @@
     </div>
     <div class="mobile">
         <a href="{{site.github.url}}/">
-          <img alt="The seal of the Department of Homeland Security" src="{{ site.github.url }}/img/layout/dhs-seal-250.png" />
+          <img alt="The seal of the Department of Homeland Security" src="{{ site.github.url }}/img/layout/dhs-seal.png" />
       </a>
-      <button class="navbar-toggle collapsed">
-        <div class="navbar-text">Menu</div>
-        <span class="sr-only">Toggle navigation</span>
-        <span class="hamburger-patty"></span>
-        <span class="hamburger-patty"></span>
-        <span class="hamburger-patty"></span>
-      </button>
-      <div class="mobile-nav collapsed">
-        <ul class="usa-unstyled-list">
-          <li class="nav-item">
-          <a href="{{ site.github.url }}/about">About</a>
-            <ul>
-              <li class="nav-item"><a href="{{ site.github.url }}/mission">Our Mission</a></li>
-              <li class="nav-item"><a href="{{ site.github.url }}/values">Our Values</a></li>
-              <li class="nav-item"><a href="{{ site.github.url }}/story">Our Story</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a href="{{ site.github.url }}/work">Our work</a>
-          </li>
-          <li class="nav-item">
-            <a href="">TBD</a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ site.github.url }}/join">Join us</a>
-          </li>
-      </div>
     </div>
   </nav>
 </header>
