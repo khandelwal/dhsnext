@@ -148,7 +148,6 @@ body {
           width: 250px;
           z-index: 11;
           a#logo-desktop-full {
-            @include opacity(0);
           }
           a#logo-desktop-collapsed {
             @include opacity(0);
