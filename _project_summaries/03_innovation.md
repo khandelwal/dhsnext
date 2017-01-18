@@ -2,7 +2,7 @@
 title: Accelerating innovation
 project_link:
 link_text:
-image_url: /img/work/innovation-icon.png
+image_url: fa-lightbulb-o
 image_description: An icon of a lightbulb representing innovation
 ---
 

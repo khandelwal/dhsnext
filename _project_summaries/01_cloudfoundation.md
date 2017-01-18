@@ -2,7 +2,7 @@
 title: Building a cloud foundation
 project_link:
 link_text:
-image_url: /img/work/cloud-icon.png
+image_url: fa-cloud-upload
 image_description: An icon representing the cloud
 ---
 

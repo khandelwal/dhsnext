@@ -2,7 +2,7 @@
 title: Creating an agile enterprise
 project_link:
 link_text:
-image_url: /img/work/agile-icon.png
+image_url: fa-refresh
 image_description: An icon representing agile within the enterprise
 ---
 

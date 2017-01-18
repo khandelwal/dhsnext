@@ -16,7 +16,7 @@
         <a href="{{ project.project_link }}" title="{{ project.link_text }}">{{ project.title }}</a>
       </h3>
     {% else %}
-    <img src="{{ site.github.url }}{{project.image_url}}" alt="{{project.image_description}}" />
+    <i class="fa {{project.image_url}} fa-lg" aria-hidden="true"></i>
       <h3>{{ project.title }}</h3>
     {% endif %}
     {{project.output}}
