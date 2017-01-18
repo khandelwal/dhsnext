@@ -16,8 +16,7 @@
         <a href="{{ project.project_link }}" title="{{ project.link_text }}">{{ project.title }}</a>
       </h3>
     {% else %}
-    <i class="fa {{project.image_url}} fa-5x" aria-hidden="true"></i>
-      <h3>{{ project.title }}</h3>
+    <h3><i class="fa {{project.image_url}} fa-5x" aria-hidden="true"></i>{{ project.title }}</h3>
     {% endif %}
     {{project.output}}
     <p class="project-link">
