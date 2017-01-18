@@ -642,6 +642,10 @@ body {
   }
 
   section.join-us{
+    a[name] {
+      text-decoration: none;
+      color: $text-color;
+    }
   }
 
   ul.featured {
@@ -699,7 +703,7 @@ body {
     color: #000;
     font-size: 1.3em;
     &:hover {
-      background-color: #CAB41F;
+      background-color: darken($background-color-secondary, 5%);
     }
   } // .join-button
 
