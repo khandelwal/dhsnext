@@ -370,13 +370,13 @@ body {
     .jumbotron {
       width: 100%;
       height: 643px;
-      background: url('../img/home/mission-collage.jpg') center center no-repeat;
+      background: url('../img/home/menzel-coastguard.jpg') center center no-repeat;
       background-size: cover;
       @media (max-width: $screen-xs-max) {
-        background-image: url('../img/home/mission-collage.jpg')
+        background-image: url('../img/home/menzel-coastguard.jpg')
       }
       @media (min-width: $screen-md-min) {
-        background-image: url('../img/home/mission-collage.jpg')
+        background-image: url('../img/home/menzel-coastguard.jpg')
       }
       color: #fff;
       position: relative;
