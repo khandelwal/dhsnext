@@ -19,10 +19,11 @@
     <i class="fa {{project.image_url}} fa-5x center-align" aria-hidden="true"></i>
     <h3>{{ project.title }}</h3>
     {% endif %}
-    <p class="left-align">{{project.output}}</p>
+    <div class="left-align">{{project.output}}
     <p class="project-link">
       <a href="{{project.project_link}}" target="_blank">{{project.link_text}}</a>
     </p>
+    </div>
   </div>
 
   {% if index_mod == column_index %}
